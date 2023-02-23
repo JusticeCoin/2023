@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>PREED</title>
+<meta name="referrer" content="origin-when-cross-origin">
+<link rel="canonical" href="https://JusticeCoin.io/preed.html">
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=960">
+<style>.anim{visibility:hidden}</style>
+<link rel="preload" href="css/Muli-Regular.woff2" as="font" crossorigin>
+<link rel="preload" href="css/Muli-Light.woff2" as="font" crossorigin>
+<link rel="preload" href="css/Muli-Italic.woff2" as="font" crossorigin>
+<style>html,body{-webkit-text-zoom:reset !important}@font-face{font-display:block;font-family:"Istok Web";src:url('css/IstokWeb-Regular.woff2') format('woff2'),url('css/IstokWeb-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Muli";src:url('css/Muli-Regular.woff2') format('woff2'),url('css/Muli-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Jura";src:url('css/Jura-DemiBold.woff2') format('woff2'),url('css/Jura-DemiBold.woff') format('woff');font-weight:600}@font-face{font-display:block;font-family:"Jura";src:url('css/Jura-Regular.woff2') format('woff2'),url('css/Jura-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Open Sans";src:url('css/OpenSans-Regular.woff2') format('woff2'),url('css/OpenSans-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Open Sans";src:url('css/OpenSans-Semibold.woff2') format('woff2'),url('css/OpenSans-Semibold.woff') format('woff');font-weight:600}@font-face{font-display:block;font-family:"Muli";src:url('css/Muli-Light.woff2') format('woff2'),url('css/Muli-Light.woff') format('woff');font-weight:300}@font-face{font-display:block;font-family:"PT Sans";src:url('css/PT_Sans-Web-Bold.woff2') format('woff2'),url('css/PT_Sans-Web-Bold.woff') format('woff');font-weight:700}@font-face{font-display:block;font-family:"PT Sans";src:url('css/PT_Sans-Web-Regular.woff2') format('woff2'),url('css/PT_Sans-Web-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Muli";src:url('css/Muli-Italic.woff2') format('woff2'),url('css/Muli-Italic.woff') format('woff');font-weight:400;font-style:italic}body>div{font-size:0}p,span,h1,h2,h3,h4,h5,h6,a,li{margin:0;word-spacing:normal;word-wrap:break-word;-ms-word-wrap:break-word;pointer-events:auto;-ms-text-size-adjust:none !important;-moz-text-size-adjust:none !important;-webkit-text-size-adjust:none !important;text-size-adjust:none !important;max-height:10000000px}sup{font-size:inherit;vertical-align:baseline;position:relative;top:-0.4em}sub{font-size:inherit;vertical-align:baseline;position:relative;top:0.4em}ul{display:block;word-spacing:normal;word-wrap:break-word;list-style-type:none;padding:0;margin:0;-moz-padding-start:0;-khtml-padding-start:0;-webkit-padding-start:0;-o-padding-start:0;-padding-start:0;-webkit-margin-before:0;-webkit-margin-after:0}li{display:block;white-space:normal}li p{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}form{display:inline-block}a{text-decoration:inherit;color:inherit;-webkit-tap-highlight-color:rgba(0,0,0,0)}textarea{resize:none}.shm-l{float:left;clear:left}.shm-r{float:right;clear:right}.btf{display:none}.plyr{min-width:0 !important}html{font-family:sans-serif}body{font-size:0;margin:0;--z:1;zoom:var(--z)}audio,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0;outline:0}b,strong{font-weight:700}dfn{font-style:italic}h1,h2,h3,h4,h5,h6{font-size:1em;line-height:1;margin:0}img{border:0}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=submit]{-webkit-appearance:button;cursor:pointer;box-sizing:border-box;white-space:normal}input[type=date],input[type=email],input[type=number],input[type=password],input[type=text],textarea{-webkit-appearance:none;appearance:none;box-sizing:border-box}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto;box-sizing:border-box;border-color:#ddd}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}blockquote{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}:-webkit-full-screen-ancestor:not(iframe){-webkit-clip-path:initial !important}
+html{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}@-webkit-keyframes fadeInRight{from{opacity:0;-webkit-transform:translate3d(100%,0,0)}to{opacity:1;-webkit-transform:translate3d(0, 0, 0)}}@keyframes fadeInRight{from{opacity:0;transform:translate3d(100%,0,0)}to{opacity:1;transform:translate3d(0, 0, 0)}}.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}
+.animated{-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}@-webkit-keyframes fadeInLeft{from{opacity:0;-webkit-transform:translate3d(-100%,0,0)}to{opacity:1;-webkit-transform:translate3d(0, 0, 0)}}@keyframes fadeInLeft{from{opacity:0;transform:translate3d(-100%,0,0)}to{opacity:1;transform:translate3d(0, 0, 0)}}.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}
+#b{background-color:#fff}.v68{display:block;vertical-align:top}.ps1607{margin-top:473px;top:0;position:-webkit-sticky;position:-moz-sticky;position:-o-sticky;position:-ms-sticky;position:sticky}.s2039{width:100%;min-width:960px;min-height:677px}.c1871{z-index:92;pointer-events:none}.ps1608{display:inline-block;width:0;height:0}.v69{display:inline-block;vertical-align:top}.ps1609{position:relative;margin-top:0}.s2040{width:100%;min-width:960px;min-height:150px}.c1872{z-index:93}.c1873{z-index:94}.s2041{width:100%;min-width:960px;min-height:148px}.c1874{z-index:95;border-top:1px solid #000;border-bottom:1px solid #000;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-image:url(images/preed1.0-148.jpg);background-color:#fff;background-repeat:no-repeat;background-position:100% 50%;background-size:contain}.webp .c1874{background-image:url(images/preed1.0-148.webp)}.ps1610{position:relative;margin-top:58px}.s2042{min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:86px}.ps1611{position:relative;margin-left:230px;margin-top:0}.s2043{min-width:629px;width:629px;min-height:86px}.c1875{z-index:96;pointer-events:auto;overflow:hidden;height:86px}.p74{padding-bottom:0;text-align:left;text-indent:0;padding-right:0}.f827{font-family:Muli;font-size:30px;font-size:calc(30px * var(--f));line-height:0.801;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:8.20px;color:#000;background-color:initial;text-shadow:none}.f828{font-family:Muli;font-size:30px;font-size:calc(30px * var(--f));line-height:0.801;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:7.70px;color:#000;background-color:initial;text-shadow:none}.ps1612{position:relative;margin-top:-32px}.s2044{min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:27px}.s2045{min-width:599px;width:599px;min-height:27px}.c1876{z-index:97;pointer-events:auto;overflow:hidden;height:27px}.f829{font-family:Muli;font-size:14px;font-size:calc(14px * var(--f));line-height:1.144;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#212121;background-color:initial;text-shadow:none}.f830{font-family:Muli;font-size:14px;font-size:calc(14px * var(--f));line-height:1.144;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#c0c0c0;background-color:initial;text-shadow:none}.ps1613{position:relative;margin-top:-111px}.s2046{min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:638px}.ps1614{position:relative;margin-left:0;margin-top:0}.s2047{min-width:219px;width:219px;min-height:638px}.c1877{z-index:98}.s2048{min-width:219px;width:219px;min-height:94px}.s2049{min-width:96px;width:96px;min-height:94px;height:94px}.c1879{z-index:99;pointer-events:auto}.i186{position:absolute;left:1px;width:94px;height:94px;top:0;border:0}.i187{width:100%;height:100%;display:inline-block;-webkit-transform:translate3d(0,0,0)}.ps1615{position:relative;margin-left:10px;margin-top:36px}.s2050{min-width:113px;width:113px;min-height:43px}.c1880{z-index:100;pointer-events:auto;overflow:hidden;height:43px}.f831{font-family:"Istok Web";font-size:30px;font-size:calc(30px * var(--f));line-height:0.868;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps1616{position:relative;margin-left:4px;margin-top:31px}.s2051{min-width:212px;width:212px;min-height:160px}.c1881{z-index:101;pointer-events:auto;overflow:hidden;height:160px}.f832{font-family:"Istok Web";font-size:17px;font-size:calc(17px * var(--f));line-height:1.295;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.s2052{min-width:219px;width:219px;min-height:1px}.c1882{z-index:102;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000}.ps1617{position:relative;margin-left:0;margin-top:10px}.s2053{min-width:219px;width:219px;min-height:342px}.c1883{z-index:103;pointer-events:auto;overflow:hidden;height:342px}.p75{text-indent:0;padding-bottom:0;padding-right:0;text-align:right}.f833{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:16px;font-size:calc(16px * var(--f));line-height:1.501;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.f834{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:16px;font-size:calc(16px * var(--f));line-height:1.501;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#b58900;background-color:initial;text-shadow:none}.f835{font-family:Muli;font-size:15px;font-size:calc(15px * var(--f));line-height:1.934;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.f836{font-family:Muli;font-size:15px;font-size:calc(15px * var(--f));line-height:1.934;font-weight:400;font-style:normal;text-decoration:underline;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps1618{position:relative;margin-top:-1150px}.s2054{width:100%;min-width:960px;min-height:622px}.c1884{z-index:1;pointer-events:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-image:url(images/preed1.0-622.jpg);background-color:#fff;background-repeat:no-repeat;background-position:100% 0;background-size:contain}.webp .c1884{background-image:url(images/preed1.0-622.webp)}.ps1619{position:relative;margin-top:193px}.s2055{min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:311px}.ps1620{position:relative;margin-left:39px;margin-top:0}.s2056{min-width:412px;width:412px;min-height:311px}.c1885{z-index:2;pointer-events:auto;overflow:hidden;height:311px}.f837{font-family:"PT Sans";font-size:42px;font-size:calc(42px * var(--f));line-height:1.144;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:2.10px;color:#000;background-color:initial;text-shadow:none}.f838{font-family:"PT Sans";font-size:33px;font-size:calc(33px * var(--f));line-height:1.153;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:2.10px;color:#000;background-color:initial;text-shadow:none}.c1886{display:block;position:relative;width:max(960px, 100%);overflow:hidden;margin-top:-476px;min-height:255px}.s2057{pointer-events:none;min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:255px}.ps1621{position:relative;margin-left:245px;margin-top:0}.s2058{min-width:716px;width:716px;min-height:255px}.c1887{z-index:13}.s2059{min-width:714px;width:714px;min-height:253px;height:253px}.c1888{z-index:49;border:1px solid #677a85;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000}.ps1622{position:relative;margin-left:18px;margin-top:0}.s2060{min-width:696px;width:696px;min-height:253px}.c1889{z-index:50}.ps1623{position:relative;margin-left:0;margin-top:35px}.s2061{min-width:433px;width:433px;min-height:178px}.c1890{pointer-events:auto;overflow:hidden;height:178px}.f839{font-family:"Istok Web";font-size:27px;font-size:calc(27px * var(--f));line-height:1.149;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#ddedf7;background-color:initial;text-shadow:none}.ps1624{position:relative;margin-left:445px;margin-top:-233px}.s2062{min-width:251px;width:251px;min-height:253px;height:253px}.c1891{z-index:53;pointer-events:auto}.i188{position:absolute;left:0;width:251px;height:253px;top:0;border:0}.ps1625{position:fixed;left:0;margin-left:var(--sw);bottom:0}.s2063{width:100%;width:calc(100% - var(--sw));min-width:960px;min-height:63px}.c1892{z-index:137;pointer-events:none}.s2064{min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:63px}.ps1626{position:relative;margin-left:842px;margin-top:0}.s2065{min-width:118px;width:118px;min-height:63px;height:63px}.c1893{z-index:139;pointer-events:auto}.a30{display:block}.i189{position:absolute;left:14px;width:90px;height:63px;top:0;border:0}.ps1627{position:relative;margin-top:-55px}.s2066{width:100%;min-width:960px;min-height:54px}.c1894{z-index:138;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff}.ps1628{position:relative;margin-top:3px}.s2067{min-width:960px;width:960px;margin-left:auto;margin-right:auto;height:50px}.ps1629{position:relative;margin-left:60px;margin-top:-1px}.s2068{min-width:409px;width:409px;min-height:51px}.ps1630{position:relative;margin-left:0;margin-top:9px}.s2069{min-width:195px;width:195px;min-height:35px}.c1895{z-index:141;pointer-events:auto;overflow:hidden;height:35px}.f840{font-family:Muli;font-size:12px;font-size:calc(12px * var(--f));line-height:1.251;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps1631{position:relative;margin-left:98px;margin-top:1px}.s2070{min-width:109px;width:109px;min-height:50px}.c1896{z-index:142;pointer-events:auto;overflow:hidden;height:50px}.f841{font-family:Jura;font-size:17px;font-size:calc(17px * var(--f));line-height:0.883;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.f842{font-family:Jura;font-size:18px;font-size:calc(18px * var(--f));line-height:0.890;font-weight:600;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#008e00;background-color:initial;text-shadow:none}.ps1632{position:relative;margin-left:6px;margin-top:0}.s2071{min-width:1px;width:1px;min-height:47px;-ms-transform:rotate(15deg);-moz-transform:rotate(15deg);-webkit-transform:rotate(15deg);transform:rotate(15deg)}.c1897{z-index:144;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#000}.s2072{min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:55px}.ps1633{position:relative;margin-left:1px;margin-top:0}.s2073{min-width:843px;width:843px;min-height:55px}.s2074{min-width:56px;width:56px;min-height:55px;height:55px}.c1898{z-index:140;pointer-events:auto}.i190{position:absolute;left:1px;width:55px;height:55px;top:0;border:0}.ps1634{position:relative;margin-left:233px;margin-top:4px}.s2075{min-width:91px;width:91px;min-height:51px}.w30{line-height:0}.c1899{z-index:145;pointer-events:auto;overflow:hidden;height:51px}.f843{font-family:"Open Sans";font-size:12px;font-size:calc(12px * var(--f));line-height:0.751;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:1.20px;color:#000;background-color:initial;text-shadow:none}.f844{font-family:"Open Sans";font-size:12px;font-size:calc(12px * var(--f));line-height:0.751;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:1.20px;color:#fff;background-color:initial;text-shadow:none}.f845{font-family:"Open Sans";font-size:15px;font-size:calc(15px * var(--f));line-height:0.801;font-weight:600;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:1.20px;color:#268bd2;background-color:initial;text-shadow:none}.f846{font-family:"Open Sans";font-size:15px;font-size:calc(15px * var(--f));line-height:0.801;font-weight:600;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:1.20px;color:#000;background-color:initial;text-shadow:none}.ps1635{position:relative;margin-left:79px;margin-top:-50px}.s2076{min-width:1px;width:1px;min-height:47px;-ms-transform:rotate(331deg);-moz-transform:rotate(331deg);-webkit-transform:rotate(331deg);transform:rotate(331deg)}.c1900{z-index:146;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#c0c0c0}.ps1636{position:relative;margin-left:95px;margin-top:4px}.s2077{min-width:103px;width:103px;min-height:51px}.c1901{z-index:146;pointer-events:auto;overflow:hidden;height:51px}.f847{font-family:Jura;font-size:18px;font-size:calc(18px * var(--f));line-height:0.890;font-weight:600;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:rgba(255,9,4,.96);background-color:initial;text-shadow:none}.ps1637{position:relative;margin-left:152px;margin-top:8px}.s2078{min-width:113px;width:113px;min-height:35px;height:35px}.c1902{z-index:147;pointer-events:auto}.i191{position:absolute;left:0;width:113px;height:21px;top:7px;border:0}@media (prefers-color-scheme: dark) {.c1874{border-bottom:(null)}}@media (-webkit-min-device-pixel-ratio:1.7), (min-resolution:144dpi) {.c1874{background-image:url(images/preed1.0-296.jpg)}.webp .c1874{background-image:url(images/preed1.0-296.webp)}.c1884{background-image:url(images/preed1.0-1244.jpg)}.webp .c1884{background-image:url(images/preed1.0-1244.webp)}}@media (min-width:960px) {.c1874{background-image:url(images/preed1.0-148.jpg)}.webp .c1874{background-image:url(images/preed1.0-148.webp)}.c1884{background-image:url(images/preed1.0-622.jpg)}.webp .c1884{background-image:url(images/preed1.0-622.webp)}}@media (min-width:960px) and (-webkit-min-device-pixel-ratio:1.7),(min-width:960px) and (min-resolution:144dpi) {.c1874{background-image:url(images/preed1.0-296.jpg)}.webp .c1874{background-image:url(images/preed1.0-296.webp)}.c1884{background-image:url(images/preed1.0-1244.jpg)}.webp .c1884{background-image:url(images/preed1.0-1244.webp)}}@media (min-width:1200px) {.c1874{background-image:url(images/preed1.0-148.jpg)}.webp .c1874{background-image:url(images/preed1.0-148.webp)}.c1884{background-image:url(images/preed1.0-622.jpg)}.webp .c1884{background-image:url(images/preed1.0-622.webp)}}@media (min-width:1200px) and (-webkit-min-device-pixel-ratio:1.7),(min-width:1200px) and (min-resolution:144dpi) {.c1874{background-image:url(images/preed1.0-296.jpg)}.webp .c1874{background-image:url(images/preed1.0-296.webp)}.c1884{background-image:url(images/preed1.0-1244.jpg)}.webp .c1884{background-image:url(images/preed1.0-1244.webp)}}@media (min-width:1600px) {.c1874{background-image:url(images/preed1.0-148.jpg)}.webp .c1874{background-image:url(images/preed1.0-148.webp)}.c1884{background-image:url(images/preed1.0-622.jpg)}.webp .c1884{background-image:url(images/preed1.0-622.webp)}}@media (min-width:1600px) and (-webkit-min-device-pixel-ratio:1.7),(min-width:1600px) and (min-resolution:144dpi) {.c1874{background-image:url(images/preed1.0-296.jpg)}.webp .c1874{background-image:url(images/preed1.0-296.webp)}.c1884{background-image:url(images/preed1.0-1244.jpg)}.webp .c1884{background-image:url(images/preed1.0-1244.webp)}}@media (min-width:2000px) {.c1874{background-image:url(images/preed1.0-148.jpg)}.webp .c1874{background-image:url(images/preed1.0-148.webp)}.c1884{background-image:url(images/preed1.0-622.jpg)}.webp .c1884{background-image:url(images/preed1.0-622.webp)}}@media (min-width:2000px) and (-webkit-min-device-pixel-ratio:1.7),(min-width:2000px) and (min-resolution:144dpi) {.c1874{background-image:url(images/preed1.0-296.jpg)}.webp .c1874{background-image:url(images/preed1.0-296.webp)}.c1884{background-image:url(images/preed1.0-1244.jpg)}.webp .c1884{background-image:url(images/preed1.0-1244.webp)}}</style>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-e5b2ee.png">
+<meta name="msapplication-TileImage" content="images/mstile-144x144-8cdadd.png">
+<link rel="manifest" href="manifest.json" crossOrigin="use-credentials">
+<link rel="alternate" hreflang="en-US" href="https://JusticeCoin.io/preed.html">
+<script>!function(){var A=new Image;A.onload=A.onerror=function(){1!=A.height&&document.body.classList.remove("webp")},A.src="data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAD8D+JaQAA3AA/ua1AAA"}();
+</script>
+<link onload="this.media='all';this.onload=null;" rel="stylesheet" href="css/site.f45e79.css" media="print">
+</head>
+<body class="webp" id="b">
+<script>var p=document.createElement("P");p.innerHTML="&nbsp;",p.style.cssText="position:fixed;visible:hidden;font-size:100px;zoom:1",document.body.appendChild(p);var rsz=function(e){return function(){var r=Math.trunc(1e3/parseFloat(window.getComputedStyle(e).getPropertyValue("font-size")))/10,t=document.body;r!=t.style.getPropertyValue("--f")&&t.style.setProperty("--f",r)}}(p);if("ResizeObserver"in window){var ro=new ResizeObserver(rsz);ro.observe(p)}else if("requestAnimationFrame"in window){var raf=function(){rsz(),requestAnimationFrame(raf)};requestAnimationFrame(raf)}else setInterval(rsz,100);</script>
+
+<div class="v68 ps1607 s2039 c1871">
+<div class="ps1608">
+</div>
+<div class="v69 ps1609 s2040 c1872">
+<div class="v69 ps1609 s2040 c1873">
+<div class="v69 ps1609 s2041 c1874">
+<div class="ps1610 v68 s2042">
+<div class="v69 ps1611 s2043 c1875">
+<p class="p74 f827">The Importance of Offering<span class="f828">&nbsp;</span></p>
+<p class="p74 f828">an Alternative to Whiteness</p>
+</div>
+</div>
+</div>
+</div>
+<div class="ps1612 v68 s2044">
+<div class="v69 ps1611 s2045 c1876">
+<p class="p74 f829">by Mark Gregory Dockery <span class="f830">(1302) </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Version 2.0 - December 2022</p>
+</div>
+</div>
+</div>
+<div class="ps1613 v68 s2046">
+<div class="v69 ps1614 s2047 c1877">
+<div class="v69 ps1614 s2048 c1878">
+<div class="v69 ps1614 s2049 c1879">
+<picture class="i187">
+<source srcset="images/justicecoin_logo_256x256-94.webp 1x, images/justicecoin_logo_256x256-188.webp 2x" type="image/webp">
+<source srcset="images/justicecoin_logo_256x256-94.png 1x, images/justicecoin_logo_256x256-188.png 2x">
+<img src="images/justicecoin_logo_256x256-188.png" class="un462 i186">
+</picture>
+</div>
+<div class="v69 ps1615 s2050 c1880">
+<p class="p74 f831"><a href="justice-coin.html">PREED</a></p>
+</div>
+</div>
+<div class="v69 ps1616 s2051 c1881">
+<p class="p74 f832">The Justice Coin Economic-Nation representing Survivors of the Settler Colonial (White) Experience - renouncers of colonial privilege in the Decentralized Economy.</p>
+</div>
+<div class="v69 ps1614 s2052 c1882"></div>
+<div class="anim fadeInLeft un463 v69 ps1617 s2053 c1883">
+<p class="p75 f833"><a href="./">Home</a></p>
+<p class="p75 f833"><a href="passover-paper.html">The Black Paper</a></p>
+<p class="p75 f833"><a href="hpi.html">The Human Potential Index</a></p>
+<p class="p75 f833"><a href="bounties.html">Bounties / Solutions</a></p>
+<p class="p75 f833"><a href="econations.html">EcoNations / Tokens</a></p>
+<p class="p75 f833"><a href="content.html">Content Videos &amp; Articles</a></p>
+<p class="p75 f833"><a href="thank-you.php">Join / Register</a></p>
+<p class="p75 f833"><a href="support.html">Support</a></p>
+<p class="p75 f834"><a href="topian.html">Topian</a></p>
+<p class="p74 f835"><br></p>
+<p class="p75"><span class="f836"><br></span></p>
+<p class="p74 f835"><br></p>
+</div>
+</div>
+</div>
+</div>
+<div class="v69 ps1618 s2054 c1884">
+<div class="ps1619 v68 s2055">
+<div class="v69 ps1620 s2056 c1885">
+<p class="p74"><span class="f837">P</span><span class="f838">rivilege&nbsp;</span></p>
+<p class="p74"><span class="f837">R</span><span class="f838">enouncing&nbsp;</span></p>
+<p class="p74"><span class="f837">E</span><span class="f838">uro-American&nbsp;</span></p>
+<p class="p74"><span class="f837">E</span><span class="f838">co-National&nbsp;</span></p>
+<p class="p74"><span class="f837">D</span><span class="f838">escendants</span></p>
+</div>
+</div>
+</div>
+<div class="c1886">
+<div class="ps1609 v68 s2057">
+<div class="v69 ps1621 s2058 c1887">
+<div class="v69 ps1614 s2059 c1888">
+<div class="v69 ps1622 s2060 c1889">
+<div class="v69 ps1614 s2060 c1878">
+<div class="v69 ps1623 s2061 c1890">
+<p class="p74 f839">&ldquo;There&rsquo;s a perception that whiteness is working for white people. It&rsquo;s not, Whiteness is one of the biggest and most long-running scams ever perpetuated.&rdquo;</p>
+</div>
+<div class="v2 ps1530 s1915 c1771">
+<p class="p2 f185">Quinn Norton</p>
+</div>
+<div class="anim fadeInRight un465 v69 ps1624 s2062 c1891">
+<picture class="i187">
+<source srcset="images/qn_headshot-251-1.webp 1x, images/qn_headshot-502-1.webp 2x" type="image/webp">
+<source srcset="images/qn_headshot-251-1.jpg 1x, images/qn_headshot-502-1.jpg 2x">
+<img src="images/qn_headshot-502-1.jpg" class="un464 i188">
+</picture>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="btf ps1419 v1 s1916">
+<div class="v2 ps864 s1917 c1772">
+<p class="p1 f803">According to my research - If you identify as &ldquo;White&rdquo;, and you&rsquo;ve read <span class="f803"><a href="passover-paper.html">The Black Paper</a></span> or <span class="f803"><a href="./">The Home Page</a></span>, you may have felt excluded from the good news of Justice Coin. But don&rsquo;t.</p>
+<p class="p1 f803"><br></p>
+<p class="p1 f803">If you are a current &ldquo;White Identifier&rdquo; (in the United States or elsewhere), you are far from excluded from the scope of Justice Coin&rsquo;s coverage no matter what your skin color.</p>
+<p class="p1 f803"><br></p>
+<p class="p1 f803">Unless of course you don&rsquo;t accept Justice as the solution to injustice and continue to revalidate and accept colonial currency and identity instead - then we can&rsquo;t help you.&nbsp;</p>
+</div>
+<div class="v2 ps1531 s1918 c2">
+<div class="v2 ps7 s1918 w1">
+<div class="v2 ps7 s1919 c1773"></div>
+<div class="v2 ps1532 s1920 c1774">
+<p class="p1 f804">To start, we have to get this fact out of the way - whiteness is a category created to house a psychological &ldquo;class&rdquo; of people - you&hellip; are not white - you&rsquo;re Italian, Romanian, Armenian, Irish, Scandinavian, Ukrainian, British and so on. But what I&rsquo;ll touch on later is that the category of &ldquo;white&rdquo; as a class construct, has been arguably the most destructive invention in history. Actually that is not arguable. For in the name of whiteness&hellip; &ldquo;Manifest Destiny&rdquo; &ldquo;Lebensraum&rdquo; etc., the most horrible atrocities in history have been deployed. This is why as a cohort, mental health professionals have been more openly discussing &ldquo;Whiteness&rdquo; as a problematic identifier, given the toxic baggage it carries historically &amp; on into the present.</p>
+</div>
+</div>
+</div>
+<div class="v2 ps1533 s1921 c2">
+<div class="v2 ps1534 s1922 c1005">
+<picture class="i4 un490">
+<source data-srcset="images/screen-shot-2022-08-17-at-9.25.59-a.m.-599.webp 1x, images/screen-shot-2022-08-17-at-9.25.59-a.m.-1198.webp 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" type="image/webp">
+<source data-srcset="images/screen-shot-2022-08-17-at-9.25.59-a.m.-599.jpg 1x, images/screen-shot-2022-08-17-at-9.25.59-a.m.-1198.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+<img src="images/screen-shot-2022-08-17-at-9.25.59-a.m.-1198.jpg" class="un466 i182">
+</picture>
+</div>
+<div class="v2 ps1535 s1923 c1775">
+<p class="p1 f805">To put it simply&hellip; friends&hellip; Justice needs to be made available to &ldquo;The White Man&rdquo;, otherwise the White Man has no where else to remain besides what is apparently the hell of moral compromise he is forced to exist within and maintain today. I&rsquo;m not the only one who sees this as the reason for the disproportionately high rate of suicides among our White identifying Men. All men, but White men especially. Given the fact that the &ldquo;American Indian&rdquo; category is comparatively an extinct ethnicity, White males stand alone at the top of this chart.&nbsp;&nbsp;</p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805"><br></p>
+</div>
+</div>
+<div class="v2 ps1536 s1924 c1776">
+<p class="p1 f805">Somehow The Most High has programmed into the math a feature whereby moral error (debt to society) does not occur without consequence over time - and often times it&rsquo;s the best and brightest who are so offended by their experience that their mental health turns acutely fatal. And that is bad for all Euro-X Descendants. And indeed bad for the rest of the world as well. Though you might get away with a crime for a long time&hellip; as Gloria Estefan once said&hellip; &ldquo;Rhythm is Gonna Getcha&rdquo;&hellip; call it Karma call it what you like&hellip; but this is a mysterious wonder that all should fear. Be Good. For God is not far&hellip; He&rsquo;s near. And the mental health statistics are telling us that &ldquo;Whiteness&rdquo; is something we all need to recover from. Liberated from.</p>
+</div>
+</div>
+<div class="btf v2 ps1537 s1925 c1777">
+<div class="v2 ps10 s1926 c1778"></div>
+<div class="ps1538 v1 s1927">
+<div class="v2 ps7 s1928 c1779">
+<div class="v2 ps7 s1928 c2">
+<div class="v2 ps7 s1928 w1">
+<div class="v2 ps18 s1929 c1780"></div>
+<div class="v2 ps1539 s1930 c1781">
+<p class="p1 f804">This is not to say that all of you here are suicidal (I certainly hope not) but the data tells us that in general, suicide is disproportionately, &ldquo;a White-Male Issue&rdquo; in the United States. And though there are many factors (genetic, nutritional etc), as Lee taught our truth group many years ago, [ none of us are more than 0.0000001% different when it comes to genetics ] so&hellip; that&rsquo;s not where to look for answers as to why white men encounter suicide so much in the land they took.&nbsp;</p>
+<p class="p1 f804"><br></p>
+<p class="p1 f804">I submit to the world that there is one factor of suicide that &ldquo;The White Man&rdquo; DOES possess disproportionately to the rest of the population, that is the extreme levels of intergenerational moral compromise on his shoulders. This results in what I call &ldquo;The Dignity Gap&rdquo; - a level of inherited compromise that also results in fatal levels of despair when the ideal he holds, clashes with reality - and say that &ldquo;White Man&rdquo; loses his job or goes broke&hellip; he&rsquo;s WAY more devastated than he should be, because though he failed, he also harbors the knowledge that he failed in the system that already bought his economic advantage with much blood. Journalists &amp; Psychologists are calling these &ldquo;Deaths of Despair&rdquo;. Suicide is essentially acute terminal mental illness. What the data shows us, is that the mental health of White Identifiers today is not in a good place, and that in reality, White Supremacy is a terrible hoax that is harming The Wizard, more than it is harming Oz.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="btf ps1540 v1 s1931">
+<div class="v2 ps1541 s1932 c1782">
+<p class="p1 f805">I created Justice Coin not only for my people, but to offer White folk a door through which they can exit the compromise they are stuck in. They will not produce such an exit for themselves - as you can imagine, the interest in leaving white supremacist economics is not high among white folk. And the only way to address this level of compromise, is to make things right at the macroeconomic level. That&rsquo;s what Justice Coin is. How else can we ultimately help The White Man, but to confess what Justice actually is, and offer him a vehicle through which he can do the same - restoring his opportunity for total dignity and wholeness. Mental wellness. Atonement with God.</p>
+</div>
+<div class="v2 ps1542 s1933 c1783">
+<p class="p1 f805">While the damage that white-supremacy-delusion has inflicted on White Identifiers is quite different than the damages distributed toward People of Color, they can certainly be qualified &amp; quantified as Forced Economic Imbalances all the same. And indeed, our White Brothers &amp; Sisters are in need of psychological rehabilitation from the colonial era as well. And if that &ldquo;White Rehabilitation&rdquo; is not had, our <span class="f806"><a href="hpi.html">Human Potential Index</a></span> will not, and cannot improve.</p>
+</div>
+<div class="v2 ps1541 s1934 c1784">
+<p class="p1 f805">AIR designations for historical damages against white identifiers include Forced Economic Imbalances such as:</p>
+</div>
+<div class="v2 ps1543 s1935 c1785">
+<ul class="ps683">
+<li class="p1 f805">&bull; <span class="f805">Psychological Development Derailment</span></li>
+<li class="p1 f805">&bull; <span class="f805">Economic Development Derailment</span></li>
+<li class="p1 f805">&bull; <span class="f805">Destruction of Culture and Identity</span></li>
+<li class="p1 f805">&bull; <span class="f805">Food Supply Contamination</span></li>
+<li class="p1 f805">&bull; <span class="f805">Miseducation / Disorientation etc.</span></li>
+</ul>
+</div>
+<div class="v2 ps1544 s1936 c1786">
+<p class="p1 f805">Many of the same categories that describe the damages inflicted on People of Color are relevant for white identifiers - they overlap - though the degree of comprehensive damages may not be the same. Though many white wounds are collectively self-inflicted (as with all people groups&rsquo;), the individual path to salvation for each person still involves addressing the uniquely high degree of abuses whiteness has radiated among Humanity since its invention.&nbsp;</p>
+</div>
+<div class="v2 ps1545 s1937 c2">
+<div class="v2 ps1546 s1938 c1787">
+<p class="p1 f805">Michael Bradley&rsquo;s Great work &ldquo;The Iceman Inheritance&rdquo; does a great job at illuminating this very important topic.&nbsp;</p>
+</div>
+<div class="v2 ps539 s1939 c1788">
+<div data-plx-c style="position:absolute;overflow:hidden;transform-style:preserve-3d;will-change:transform;-webkit-backface-visibility:hidden;backface-visibility:hidden;top:0;left:0">
+<div class="plx" data-plx="s:0.25:0.75:0:0:1.2;r:0.25:0.75:0:0:15.0:50%:50%" style="visibility:hidden;transform-style:preserve-3d;width:100%%;height:100%%" data-plx-bb>
+<a href="https://www.amazon.com/Iceman-Inheritance-Prehistoric-Sources-Aggression/dp/1879831007" target="_blank" rel="noopener" class="a14"><picture class="i4 un491"><source data-srcset="images/51gtjmdsdcl._sx292_bo1-204-203-200_-153.webp 1x, images/51gtjmdsdcl._sx292_bo1-204-203-200_-306.webp 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" type="image/webp"><source data-srcset="images/51gtjmdsdcl._sx292_bo1-204-203-200_-153.jpg 1x, images/51gtjmdsdcl._sx292_bo1-204-203-200_-306.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><img src="images/51gtjmdsdcl._sx292_bo1-204-203-200_-306.jpg" class="un467 i183"></picture></a>
+</div>
+</div>
+</div>
+</div>
+<div class="v2 ps1547 s1940 c2">
+<div class="v2 ps7 s1940 w1">
+<div class="v2 ps7 s1941 c1789">
+<p class="p1 f805">Unlike the era of oppression, the era of Justice cannot be claimed prior to a complete commitment to the improvement of all Human Potential. And that cannot include leaving you behind just because you&rsquo;ve been socially enabled to identify as a white class. However it does mean, offering all of us an alternative denotation for you - something besides the historically toxic badge of &ldquo;white&rdquo;. If we fail to let you out of that cage, we fail our species. Having inherited the moral authority to do so, it is incumbent upon the Indigenous people of Earth to point toward the path of repentance and atonement for White Identifiers, and for Justice Coin, our answer to that call is the PREED EcoNational designation.</p>
+</div>
+<div class="v2 ps1548 s1942 c1790">
+<div class="v2 ps7 s1943 c1791">
+<p class="p2 f807">P.R.E.E.D.</p>
+<p class="p2 f808">Privilege Renouncing Eco-National Euro-X Descendent</p>
+</div>
+<div class="v2 ps1549 s1944 c1792">
+<picture class="i4 un492">
+<source data-srcset="images/preed1.0-431.webp 1x, images/preed1.0-862.webp 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" type="image/webp">
+<source data-srcset="images/preed1.0-431.jpg 1x, images/preed1.0-862.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+<img src="images/preed1.0-862.jpg" class="un468 i184">
+</picture>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="btf c1793">
+<div class="v2 ps1550 s1945 c1794">
+<div class="v2 ps10 s1946 c1795">
+<div class="ps1551 v1 s1947">
+<div class="v2 ps7 s1948 c2">
+<div class="anim fadeInLeft un469 v2 ps1552 s1949 c1585">
+<div class="v2 ps7 s1949 c2">
+<div class="v2 ps7 s1950 c1796"></div>
+<div class="v2 ps1553 s1951 c1797">
+<p class="p1 f809">If you are in Mexico but with Pre-Colombian roots in Europe:</p>
+<p class="p1 f810">Privilege Renouncing EcoNational Euro-Mexicano Descendent</p>
+</div>
+</div>
+</div>
+<div class="anim fadeInRight un470 v2 ps1554 s1952 c1798">
+<div class="v2 ps7 s1952 c2">
+<div class="v2 ps243 s1953 c1799">
+<div class="v2 ps7 s1953 c2">
+<div class="v2 ps7 s1953 w1">
+<div class="v2 ps7 s1953 c1800">
+<p class="p3 f809">The PREED designation is flexible, for instance if you have a European heritage and you are in America, you can say:</p>
+<p class="p3 f809"><br></p>
+<p class="p3 f811"><br></p>
+</div>
+<div class="v2 ps1555 s1954 c1801">
+<p class="p3 f810">Privilege Renouncing EcoNational Euro-American Descenden<span class="f812">t</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="v2 ps1556 s1955 c1802"></div>
+</div>
+</div>
+</div>
+<div class="anim fadeInRight un471 v2 ps1557 s1956 c273">
+<div class="v2 ps7 s1956 c2">
+<div class="v2 ps302 s1957 c1803">
+<p class="p3 f809">If you are in Australia but with Pre-Colonial Roots in Europe:</p>
+<p class="p3 f810">Privilege Renouncing EcoNational Euro-Australian Descendent</p>
+</div>
+<div class="v2 ps1558 s1950 c1804"></div>
+</div>
+</div>
+<div class="anim fadeInLeft un472 v2 ps323 s1958 c278">
+<div class="v2 ps7 s1958 c2">
+<div class="v2 ps7 s1958 w1">
+<div class="v2 ps7 s1950 c1805"></div>
+<div class="v2 ps1559 s1959 c1806">
+<p class="p1 f809">If you are in Colombia but with Pre-Colombian roots in Europe:</p>
+<p class="p1 f810">Privilege Renouncing EcoNational Euro-Colombian Descendent</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ps1560 v1 s1960">
+<div class="v2 ps1016 s1961 c1807"></div>
+</div>
+</div>
+<div class="v2 ps1561 s1962 c1808">
+<div class="v2 ps10 s1963 c1809">
+<div class="ps13 v1 s1964">
+<div class="v2 ps7 s1965 c2">
+<div class="anim fadeInRight un473 v2 ps7 s1966 c1810">
+<p class="p1 f813">PREED<span class="f814"> are Allies to all those who stand entitled to Justice.</span></p>
+</div>
+<div class="anim fadeInRight un474 v2 ps1562 s1967 c1811">
+<p class="p1 f813">PREED<span class="f814"> are the leadership class for those still in psychological need of renouncing &ldquo;whiteness&rdquo; - generations of forced economic imbalances in favor of those with skin like theirs.</span></p>
+</div>
+</div>
+<div class="anim fadeInRight un475 v2 ps1563 s1968 c1812">
+<p class="p1 f813">PREED<span class="f814"> may have designated themselves as &ldquo;white&rdquo; before today (due to lack of options at least), but where they are now, they understand that white is a toxic class label that they&rsquo;d rather disassociate with, for the sake of everyone, especially their own psychological health, and that of their children.</span></p>
+</div>
+<div class="anim fadeInRight un476 v2 ps1564 s1969 c1813">
+<p class="p1 f813">PREED<span class="f814"> can still be patriotic and work toward the improvement of the &ldquo;USA&rdquo; or the &ldquo;American&rdquo; idea (as inherently antithetical to the existence of POC as it has been&hellip; everyone is allowed to believe in redemption).&nbsp;</span></p>
+</div>
+<div class="anim fadeInRight un477 v2 ps1565 s1970 c1814">
+<p class="p1 f813">PREED<span class="f814"> is not an anti-American or anti-anyone nomination. They are proud of their European ancestry, but renounce the &ldquo;Royal&rdquo; or &ldquo;Papal&rdquo; and &ldquo;Legislative&rdquo; ideas of white supremacy that have been strangling human potential worldwide for millennia.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="btf ps688 v1 s1971">
+<div class="v2 ps1566 s1972 c1815">
+<p class="p1 f805">Justice Coin is not &ldquo;against White People&rdquo; - &ldquo;White People&rdquo; is a class category that was invented, so as to offer psychological justification to those who would identify with the European royalty-class, enabling them to take on the sociopathic mind of their rulers, against the indigenous people of Color they were encouraged to conquer on the crown&rsquo;s behalf. Understanding this, Justice Coin PREED is a device to liberate White Identifiers from the otherwise toxic identity we call &ldquo;white&rdquo;.&nbsp;</p>
+</div>
+<div class="v2 ps1566 s1973 c1816">
+<p class="p1 f805">Just as the farmer uses gates and fences to ensure that his livestock continue to profit him by staying within his sphere of greatest influence, likewise, the vocabulary we are taught and led to use, are psychological fences, established by those who would rather we keep doing what we&rsquo;re doing, instead of transcending the oppression we have in common. These verbal spells keep us unconsciously validating &amp; revalidating the preferred reality of &ldquo;the rich&rdquo;, every time we use them.</p>
+</div>
+</div>
+<div class="btf v2 ps10 s9 c1817">
+<a href="https://encyclopediavirginia.org/entries/an-act-for-suppressing-outlying-slaves-1691/" target="_blank" rel="noopener" style="display:block;"><div class="v2 ps10 s1974 c1818"><div class="ps1567 v1 s1975"><div class="v2 ps262 s1976 c2"><div class="v2 ps243 s1977 c1819"><p class="p1 f805">One such spell is the class distinction, &ldquo;White&rdquo;. Deployed via Virginia legislature in 1691<span class="f805"> by &ldquo;the rich&rdquo; in response to the challenge of not being able to control the united masses a la Bacon&rsquo;s Rebellion. The rich came up with the plan to offer benefits to non-colored Europeans - the opportunity to legally lean on dark-skinned people by excluding them from a master class called &ldquo;The Whites&rdquo;. Today, many still identify with this fictional group called &ldquo;The Whites&rdquo;, and many don&rsquo;t even know they&rsquo;re siding with injustice by doing so.</span></p></div><div class="v2 ps135 s1978 c1820"><div class="plx" data-plx="r:0.25:0.75:0:0:15.0:50%:50%" style="visibility:hidden;transform-style:preserve-3d;will-change:transform;-webkit-backface-visibility:hidden;backface-visibility:hidden;width:100%;height:100%" data-plx-no-clip="1"><picture class="i4 un493"><source data-srcset="images/3442hpr_d90431f822ce50e-639x1024-162.webp 1x, images/3442hpr_d90431f822ce50e-639x1024-324.webp 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" type="image/webp"><source data-srcset="images/3442hpr_d90431f822ce50e-639x1024-162.jpg 1x, images/3442hpr_d90431f822ce50e-639x1024-324.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><img src="images/3442hpr_d90431f822ce50e-639x1024-324.jpg" class="un478 i185"></picture></div></div></div></div></div></a>
+</div>
+<div class="btf ps1568 v1 s1979">
+<div class="v2 ps1566 s1980 c2">
+<div class="v2 ps7 s1980 w1">
+<div class="v2 ps7 s1981 c1821">
+<p class="p1 f805">Today we&rsquo;re seeing the result of nearly 400 years of white-American fabrication of this ideal of whiteness. In other words&hellip; way beyond the point where white folk would just say&hellip; &ldquo;hey we&rsquo;ve been messing up, we better just stop.&rdquo; No after 400 years&hellip; whatever is still going, will not stop by the devices of those in error - they must be saved. Only, saved from themselves.</p>
+</div>
+<div class="v2 ps358 s1982 c1822">
+<p class="p1 f805">As it is with smear campaigns and other hallmarks of abusive personalities, racism really backfires on &ldquo;white people&rdquo; even if they are not a racist personally, because there&rsquo;s no way to distance themselves from the social outcomes of collective racism. You&rsquo;re stuck with the baggage no matter what! I get that.</p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805">For the non-racist white mind - the psychological cost of participating in or going along with the enforcement of white supremacy (the colonial macro-economy) still exist. This is problematic and cannot be understated. But we know now that many deaths of despair (suicides) are from White Men who detest the effects of ongoing racism and grossness of their cohort&rsquo;s behavior (Rest In Peace Robin Williams, Anthony Bourdain, and my late friend, Brotha Phillipians).&nbsp;</p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805">Either way - racist or not - inherited psychopathy is quite the serious matter. When people hand down the game, and the attitudes necessary to maintain white-priority to their offspring, the young have little choice but to become malignant themselves. The gifted white man is vexed by the situation. The gifted white girl is speechless - she doesn&rsquo;t have the words to express how she feels. So no one knows. They&rsquo;ve told me though. PREED is my response.&nbsp;</p>
+<p class="p1 f805"><br></p>
+<p class="p1 f805">And where we live today on the frontier of the timeline of Human progress, the game has been going on so long, everyone we know was born into it, and raised by adults who were born in it. All of us, completely born into iniquity; disorder. There is a psychological cost for having been handed down such levels of disorientation, and I think we are living in the days when the lies have come full circle.</p>
+</div>
+</div>
+</div>
+<div class="anim fadeInRight un479 v2 ps1569 s1983 c1823">
+<div class="v2 ps7 s1983 c1824">
+<div class="v2 ps1570 s1984 c1825">
+<p class="p2 f804">More About Our Solution</p>
+</div>
+<div class="v2 ps1571 s1985 c1826">
+<p class="p1 f804">As currency is the way our species has come to transmit commercial ability, values and worth across cultural, linguistic, and geographic barriers, one&rsquo;s economic affiliation will become more significant than any appeal to regional skin-tone-privilege moving forward. At Justice Coin, we call these economic affiliations &ldquo;EcoNations&rdquo; (Economic Nations), and just as the <span class="f815"><a href="#">Topian</a></span><span class="f804"> is the EcoNation representing the Blacks of the American Experience, the EcoNation we have nominated for those who would otherwise be forced to identify as White (but now see and that Justice needs to be the priority) is PREED.</span></p>
+</div>
+</div>
+</div>
+<div class="v2 ps1572 s1986 c1827">
+<div class="v2 ps7 s1987 c2">
+<div class="v2 ps7 s1987 w1">
+<div class="v2 ps7 s1988 c1828">
+<p class="p2 f816">Whiteness in the Future</p>
+<p class="p1 f805">In the Age of Justice, White Entitlement will be spoken of as a mental disorder. And indeed, for one to refer to themselves as &ldquo;White&rdquo; may be done tongue in cheek, but otherwise will be considered strange. Backward.</p>
+</div>
+<div class="v2 ps1573 s1989 c1829">
+<p class="p1 f805">Today though, Whiteness and the infrastructure of White Supremacy are still considered a bit normal. Though largely unsaid, WS is still &ldquo;the way the world works&rdquo;.</p>
+</div>
+</div>
+</div>
+<div class="v2 ps1574 s1990 c1830">
+<p class="p1 f805">But when it is widely studied in the same way psychologists study cults, it will become clear to us all that just like a cult, WS maintained its power by constantly regenerating the &ldquo;us versus them mentality&rdquo; (UVT) and other cult tactics.</p>
+</div>
+</div>
+<div class="v2 ps1575 s1991 c1831">
+<div class="v2 ps7 s1991 c1832">
+<div class="v2 ps1576 s1992 c2">
+<div class="v2 ps7 s1992 w1">
+<div class="v2 ps7 s1993 c1833">
+<p class="p2 f817">Call To Action / What We Do Now</p>
+<p class="p1 f804">Out of respect - if someone insists that they are white&hellip; fine&hellip; let people call themselves what they want.&nbsp;</p>
+<p class="p1 f804"><br></p>
+<p class="p1 f804">But since white doesn&rsquo;t exist - don&rsquo;t let your speech become loose&hellip; refer to them as &ldquo;White Identifiers&rdquo; to be more precise in your speech. But MORE THAN THAT&hellip; be sure to offer everyone possible, the opportunity to identify with Justice informed denominations, like PREED. Update the way we speak so that we&rsquo;re not revalidating and enabling psychopathic toxicity in our lives. Stand for Justice by referring to people as what they are, within the framework of Justice.</p>
+</div>
+<div class="v2 ps1577 s1994 c1834">
+<p class="p1 f804">Those holding onto Whiteness, are holding onto a fiction born for the purpose of dividing what was once an unstoppable force against tyranny - Human unity through reason (see Bacon&rsquo;s Rebellion etc). People of all colors and backgrounds, cooperating together for the betterment of all. But an opportunity arose to side with oppression, and a collective agreement was established that exists to this day, to covertly subjugate &ldquo;People of Color&rdquo; with the concept&hellip; &ldquo;White&rdquo;.</p>
+</div>
+<div class="v2 ps1578 s1995 c1835">
+<p class="p1 f804">As long as we keep validating the curse with our mouth, we will remain cursed. In contrast, Justice Coin is deploying a blessing through the PREED designation - a door through which you will be able to access security in the future, and live out your commitment to Justice. An opportunity that does not exist outside of Justice Coin.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="v2 ps1579 s1996 c1836">
+<p class="p2 f818">So that&rsquo;s it!</p>
+</div>
+<div class="v2 ps1580 s1997 c1837">
+<p class="p1 f807">It&rsquo;s just important that you know&hellip; <span class="f819">(especially with the current cancel culture we&rsquo;re apparently in)</span> that the PREED EcoNational denomination is not intended to insult otherwise &ldquo;White&rdquo; identifiers&hellip; it&rsquo;s intended to offer them a home.</p>
+</div>
+<div class="v2 ps594 s1998 c256">
+<div class="v2 ps7 s1998 c2">
+<div class="v2 ps7 s1998 w1">
+<div class="v2 ps7 s1999 c1838"></div>
+<div class="v2 ps1581 s2000 c1839">
+<p class="p1 f820">Because just as budgets are moral documents, Economics, is a moral issue - and whereas &ldquo;Whiteness&rdquo; is a caste incompatible with the moral standards of Humanity&rsquo;s &lsquo;ideal order, the era of economic justice has no place for &ldquo;Whiteness&rdquo; or the money ordained thereby.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="v2 ps1582 s2001 c1840">
+<p class="p2 f805">Thank you for your time.</p>
+</div>
+<div class="v2 ps1583 s2002 c1841">
+<div data-plx-c style="position:absolute;overflow:hidden;transform-style:preserve-3d;will-change:transform;-webkit-backface-visibility:hidden;backface-visibility:hidden;top:0;left:0">
+<div class="plx" data-plx="s:0.25:0.75:0:0:1.5" style="visibility:hidden;transform-style:preserve-3d;width:100%%;height:100%%">
+<p class="p2 f821">May The Most High add a blessing to these words.&nbsp;</p>
+</div>
+</div>
+</div>
+<div class="v2 ps1584 s2003 c1842">
+<div class="v2 ps7 s2003 c2">
+<div class="v2 ps7 s2003 w1">
+<div class="v2 ps7 s2004 c1843"></div>
+<div class="v2 ps1585 s2005 c1844">
+<p class="p1"><span class="f817">My name is Mark Gregory Dockery. </span><span class="f822">(1302)</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="v2 ps2 s2001 c1845">
+<p class="p2 f805">Friends call me Doc. Founder of Justice Coin.</p>
+</div>
+<div class="anim fadeInRight un482 v2 ps1586 s2006 c248">
+<div class="v2 ps7 s2006 c1846">
+<div class="v2 ps1069 s2007 c2">
+<div class="v2 ps7 s2007 w1">
+<div class="anim zoomIn un480 v2 ps7 s2008 c1847">
+<p class="p2 f823">Wake up!</p>
+</div>
+<div class="anim slideInUp un481 v2 ps1587 s2009 c1848">
+<p class="p2 f804">Welcome to the Future.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="btf c1849">
+<div class="ps10 v1 s2010">
+<div class="v2 ps1588 s2011 c2">
+<div class="v2 ps1069 s1347 c1850">
+<p class="p2 f623">Accessible Videos on the Topic</p>
+</div>
+<div class="anim fadeInRight un483 v2 ps1070 s2012 c1851"></div>
+</div>
+</div>
+</div>
+<div class="btf ps1589 v1 s2013">
+<div class="v2 ps1590 s2014 c132">
+<div class="v2 ps7 s2014 c2">
+<div class="v2 ps7 s1350 c267">
+<div class="vd1">
+<div id="pl10" class="iwr1">
+</div>
+</div>
+</div>
+<div class="v2 ps1591 s2015 c1852">
+<p class="p2 f824">The Origin of Whiteness in Ameri<span class="f722">ca</span></p>
+<p class="p2 f825">Tim Wise</p>
+</div>
+</div>
+</div>
+<div class="v2 ps1592 s2016 c1041">
+<div class="v2 ps7 s2016 c2">
+<div class="v2 ps7 s2016 w1">
+<div class="v2 ps7 s2016 c1641">
+<div class="v2 ps7 s2016 c2">
+<div class="v2 ps7 s1350 c267">
+<div class="vd1">
+<div id="pl11" class="iwr1">
+</div>
+</div>
+</div>
+<div class="v2 ps1593 s2017 c968">
+<p class="p1 f824">Unmasking the world of whiteness is one of the most important pieces for not just the P.R.E.E.D. EcoNation, but all Allies in the Justice Coin chain.</p>
+</div>
+</div>
+</div>
+<div class="v2 ps1594 s2015 c1853">
+<p class="p2 f722">Whitewashed</p>
+<p class="p2 f721">Mark Patrick George</p>
+</div>
+</div>
+</div>
+</div>
+<div class="v2 ps1595 s2018 c1854">
+<div class="v2 ps7 s2018 c2">
+<div class="v2 ps7 s1350 c267">
+<div class="vd1">
+<div id="pl12" class="iwr1">
+</div>
+</div>
+</div>
+<div class="v2 ps1596 s2019 c1855">
+<p class="p2 f826">1681 - The Invention of Race: The Laws that Changed the World!</p>
+<p class="p2 f624"><br></p>
+<p class="p2 f825">Philippe Shock Matthews &amp; Jaqueline Battalora</p>
+</div>
+</div>
+</div>
+<div class="v2 ps1597 s2020 c1256">
+<a href="econations.html#anchor1" style="display:block;"><div class="v2 ps7 s2020 c1856"><div class="v2 ps1598 s2021 c958"><div class="v2 ps360 s2022 c963"><p class="p2 f380">P.R.E.E.D.</p><p class="p2 f381">Price Discovery Frontier</p><p class="p2 f382"><br></p><p class="p2 f382"><br></p><p class="p2 f382"><br></p><p class="p2 f382"><br></p><p class="p2 f382"><br></p><p class="p2 f382"><br></p><p class="p2 f382"><br></p><p class="p2 f382"><br></p></div><div class="v2 ps360 s2023 c1857"></div><div class="v2 ps420 s2024 c2"><div class="v2 ps356 s2025 c1858"><p class="p2 f383">1 PREED&nbsp;</p><p class="p2 f161">Inheritance Token</p><p class="p1 f161"><br></p><p class="p1 f161"><br></p><p class="p1 f161"><br></p><p class="p1 f161"><br></p><p class="p1 f161"><br></p><p class="p1 f161"><br></p><p class="p1 f161"><br></p><p class="p1 f161"><br></p><p class="p1 f161"><br></p></div><div class="v2 ps663 s840 c1859"><p class="p2 f383">=</p><p class="p2 f383"><br></p><p class="p2 f383"><br></p><p class="p2 f383"><br></p><p class="p2 f383"><br></p><p class="p2 f383"><br></p><p class="p2 f383"><br></p><p class="p2 f383"><br></p><p class="p2 f383"><br></p></div><div class="v2 ps664 s2026 c1860"><p class="p1 f381">The Economic Weight of</p><p class="p1"><span class="f380">$</span><span class="f384">179,623.</span><span class="f385">33</span><span class="f382">&nbsp;</span></p><p class="p1 f381">Current US Dollars</p><p class="p1 f382"><br></p><p class="p1 f382"><br></p><p class="p1 f382"><br></p><p class="p1 f382"><br></p><p class="p1 f382"><br></p><p class="p1 f382"><br></p><p class="p1 f382"><br></p><p class="p1 f382"><br></p></div></div></div></div></a>
+</div>
+<div class="v2 ps1599 s2027 c1861">
+<div class="v2 ps7 s2027 c1862">
+<div class="anim fadeInUp un486 v2 ps1600 s2028 c315">
+<div class="v2 ps7 s2028 c2">
+<div class="v2 ps7 s2028 w1">
+<div class="v2 ps7 s2029 c1863">
+<div class="v2 ps7 s2029 c2">
+<div class="v2 ps7 s2029 c2">
+<div class="v2 ps356 s2030 c1864"></div>
+<form action="thank-you.php" method="POST" class="v2 ps1601 s2031">
+<input type="hidden" name="wxqxaniak">
+<div class="v2 ps7 s2032 c202">
+<div class="v2 ps7 s2032 w1">
+<div class="anim fadeInUp un484 v2 ps121 s464 c1865">
+<p class="p1 f197">Register Now!<span class="f198">&nbsp;</span></p>
+<p class="p1 f199">to opt-in to post-colonial economics &amp; receive your Inheritance in Cryptocurrency</p>
+</div>
+<div class="v2 ps358 s465 c1866">
+<input type="text" placeholder="Your Name" name="_Name[]" class="input22">
+</div>
+</div>
+</div>
+<div class="v2 ps302 s465 c2">
+<input type="text" placeholder="Your E-Mail Address" name="_e-mail-reply-to" class="input23">
+</div>
+<div class="v2 ps1602 s2033 c202">
+<div class="v2 ps7 s2033 w1">
+<div class="v2 ps1603 s2034 c1867">
+<p class="p2 f204">If you are a PREED,</p>
+<p class="p2 f204">register now for your free inheritance token.&nbsp;</p>
+<p class="p2 f204"><br></p>
+<p class="p2 f204">Inheritance Tokens are worth the unresolved damages your group has endured, divided by your population.</p>
+<p class="p1 f204"><br></p>
+<p class="p1 f204"><br></p>
+<p class="p1 f204"><br></p>
+<p class="p1 f204"><br></p>
+<p class="p1 f204"><br></p>
+<p class="p2 f204">Welcome to the future.</p>
+</div>
+<div class="v2 ps1604 s2035 c1868">
+<input type="text" name="owtvmveay" class="v15">
+<input type="text" required name="eqhpp" class="v15">
+<input type="submit" disabled value="Join as PREED Now!" name="_sendmailform" class="un485 s2036 submit10">
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="v2 ps1605 s2037 c1869"></div>
+<div class="v2 ps1606 s2038 c1870"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="v69 ps1625 s2063 c1892">
+<div class="ps1609 v68 s2064">
+<div class="v69 ps1626 s2065 c1893">
+<a href="https://diamondapp.com/u/JusticeCoin" target="_blank" rel="noopener" class="a30"><picture class="i187 un494"><source data-srcset="images/decentralized-social-deso-90.webp 1x, images/decentralized-social-deso-180.webp 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" type="image/webp"><source data-srcset="images/decentralized-social-deso-90.png 1x, images/decentralized-social-deso-180.png 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><img src="images/decentralized-social-deso-180.png" class="un487 i189"></picture></a>
+</div>
+</div>
+<div class="v69 ps1627 s2066 c1894">
+<div class="ps1628 v68 s2067">
+<div class="v69 ps1629 s2068 c1878">
+<div class="v69 ps1630 s2069 c1895">
+<p class="p74 f840"><a href="https://etherscan.io/token/0x283121b94f2ab0a9a0e0ef72cd24fe8e9d3c65f0" target="_blank" rel="noopener">JusticeCoin.eth</a></p>
+<p class="p74 f840"><a href="https://etherscan.io/token/0x283121b94f2ab0a9a0e0ef72cd24fe8e9d3c65f0" target="_blank" rel="noopener">JusticeCoin.blockchain</a></p>
+</div>
+<div class="v69 ps1631 s2070 c1896">
+<p class="p75 f841"><a href="hpi.html">Operational&nbsp;</a></p>
+<p class="p75 f841"><a href="hpi.html">Potential</a></p>
+<p class="p75 f842"><a href="hpi.html">+29.25%</a></p>
+</div>
+<div class="v69 ps1632 s2071 c1897"></div>
+</div>
+</div>
+</div>
+<div class="ps1627 v68 s2072">
+<div class="v69 ps1633 s2073 c1878">
+<div class="v69 ps1614 s2074 c1898">
+<picture class="i187 un495">
+<source data-srcset="images/justicecoin_logo_256x256-55.webp 1x, images/justicecoin_logo_256x256-110.webp 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" type="image/webp">
+<source data-srcset="images/justicecoin_logo_256x256-55.png 1x, images/justicecoin_logo_256x256-110.png 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+<img src="images/justicecoin_logo_256x256-110.png" class="un488 i190">
+</picture>
+</div>
+<div class="v69 ps1634 s2075 w30">
+<div class="v69 ps1614 s2075 c1899">
+<p class="p74 f843"><a href="hpi.html">The</a><span class="f844"><a href="hpi.html">&nbsp;</a></span></p>
+<p class="p74 f845"><a href="hpi.html">H</a><span class="f846"><a href="hpi.html">uman&nbsp;</a></span></p>
+<p class="p74 f845"><a href="hpi.html">P</a><span class="f846"><a href="hpi.html">otential&nbsp;</a></span></p>
+<p class="p74 f845"><a href="hpi.html">I</a><span class="f846"><a href="hpi.html">ndex</a></span></p>
+</div>
+<div class="v69 ps1635 s2076 c1900"></div>
+</div>
+<div class="v69 ps1636 s2077 c1901">
+<p class="p74 f841"><a href="hpi.html">Reduced /&nbsp;</a></p>
+<p class="p74 f841"><a href="hpi.html">Unrealized</a></p>
+<p class="p74 f847"><a href="hpi.html">-70.</a><span class="f847"><a href="hpi.html">75</a></span></p>
+</div>
+<div class="v69 ps1637 s2078 c1902">
+<a href="https://discord.gg/nJeePff" target="_blank" rel="noopener" class="a30"><picture class="i187 un496"><source data-srcset="images/discord-logo-black-113.webp 1x, images/discord-logo-black-226.webp 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" type="image/webp"><source data-srcset="images/discord-logo-black-113.png 1x, images/discord-logo-black-226.png 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><img src="images/discord-logo-black-226.png" class="un489 i191"></picture></a>
+</div>
+</div>
+</div>
+</div>
+<div class="btf c906">
+</div>
+<script>dpth="/";!function(){for(var e=["js/woolite.eb1d7d.js","js/jquery.eb1d7d.js","js/stickyfill.eb1d7d.js","js/preed.f45e79.js"],n={},s=-1,t=function(t){var o=new XMLHttpRequest;o.open("GET",e[t],!0),o.onload=function(){for(n[t]=o.responseText;s<4&&void 0!==n[s+1];){s++;var e=document.createElement("script");e.textContent=n[s],document.body.appendChild(e)}},o.send()},o=0;o<4;o++)t(o)}();
+</script>
+<script>
+var init_parallax;!function(){var t,e,i,r,o,s,l,n,a,f,d,h=["sticky","-webkit-sticky","-moz-sticky","-o-sticky","-ms-sticky"],p=void 0,m=void 0,y=1;init_parallax=function(){t=document.querySelectorAll(".plx")};var g=function(t){var e=t.parentNode;return(!1===t.nc||void 0===t.nc&&!(t.nc=null!=t.getAttribute("data-plx-no-clip")))&&(e=e.parentNode),(t.c||void 0===t.c&&(t.c=null!=e.getAttribute("data-plx-c")))&&null!=(e=e.parentNode).getAttribute("data-plx-c")&&(e=e.parentNode),e},u=function(t){var s=window,l=void 0;if(!this.mw&&"0px"===s.getComputedStyle(l=g(t)).getPropertyValue("min-width")||void 0!==t.bounds&&e==r&&i==o)void 0===t.bounds||0!=t.bounds.width&&0!=t.bounds.height||(t.bounds.width=t.offsetWidth,t.bounds.height=t.offsetHeight);else{void 0===t.currentTime&&(t.style.position="absolute"),void 0===l&&(l=g(t));var n=0,a=0,f=l.offsetWidth,d=l.offsetHeight,p=l;do{var m=-1!=h.indexOf(s.getComputedStyle(p).position);m&&(p.style.position="relative"),n+=p.offsetTop,a+=p.offsetLeft,m&&(p.style.position="")}while(p=p.offsetParent);t.bounds={top:n,left:a,width:f,height:d}}return t.bounds},c=function(t,e){var i=t.getBoundingClientRect();i={left:i.left,right:i.right,top:i.top,bottom:i.bottom};for(var r=0;0!==e&&r<t.children.length;r++){var o=e?c(t.children[r],e):t.children[r].getBoundingClientRect();o.left<i.left&&(i.left=o.left),o.top<i.top&&(i.top=o.top),o.right>i.right&&(i.right=o.right),o.bottom>i.bottom&&(i.bottom=o.bottom)}return i.width=i.right-i.left,i.height=i.bottom-i.top,i},v=function(t,e,i,r,o){window;var s=a/y;s<0&&(s=0);var n=t.top;1==e?n+=t.height/2:2==e&&(n+=t.height);var f=(n-s)/l,d=0,h=0,p=r>=0?r:0,m=l*(i-p),g=l*i,u=l*p;return n<l?f<=i&&(f>=r||r<=0)?o?(h=d=m-s,n>g?h=d+=n-g:n-u&&(h=m-s*m/(n-u))):(h=d=s,n>g?h=d-=n-g:n-u&&(h=d*m/(n-u))):f<=i?n>u?o?n<g&&(d=g-n):(h=d=m,n<g&&(d=n-u)):o||(h=d=m):o&&n>g&&(h=d=m):(f<=i&&(f>=r||r<=0)?d=o?n-s-u:g-(n-s):f<=i?o||(d=m):o&&(d=m),h=d),{o:d,n:h}},x=function(){void 0===p&&(p=/chrome/i.test(navigator.userAgent),m=/firefox/i.test(navigator.userAgent));var h=window;if(r=h.innerWidth,o=h.innerHeight,n=h.pageXOffset,a=h.pageYOffset,n<0&&!p||this.mw&&r===e&&i===o&&n===f&&a===d)h.requestAnimationFrame&&h.requestAnimationFrame(x);else{n<0&&(n=0),m||r==e&&o==i||(y=parseFloat(h.getComputedStyle(document.body).getPropertyValue("zoom"))),y||(y=1),s=r/y,l=o/y;for(var w=Math.max(document.body.scrollWidth,s),b=!1,T=Math.max(document.body.scrollHeight,l),F=(b=!1,t.length-1);F>=0;F--){var k,A=t[F],I=g(A);if(null!==I&&"hidden"!=(k=h.getComputedStyle(I)).getPropertyValue("visibility")&&"none"!=k.getPropertyValue("display")){var O=u(A);if(null!=O){if(void 0===A.plx){if(A.style.display="block",A.plx=A.getAttribute("data-plx").split(";"),A.bb=null!=A.getAttribute("data-plx-bb"),A.offsl=A.offst=A.incw=A.inch=0,!A.nc){var z=I.getAttribute("data-plx-offs");null!=z&&(z=z.split(";"),A.offsl=1.4142*parseInt(z[0]),A.offst=1.4142*parseInt(z[1]),A.incw=Math.max(0,-A.offsl)+1.4142*parseInt(z[2]),A.inch=Math.max(0,-A.offst)+1.4142*parseInt(z[3]))}var M=k.getPropertyValue("transform")||k.getPropertyValue("-webkit-transform")||k.getPropertyValue("-moz-transform")||k.getPropertyValue("-ms-transform"),L=1,P=1;if("none"!=M)M=M.substring(7).split(","),L=parseFloat(M[0])>=0?1:-1,P=(W=parseFloat(M[3]))>=0?1:-1;A.sx=L,A.sy=P,A.style.display="inline-block"}for(var V=void 0,E=void 0,q=void 0,C=void 0,N=void 0,S=void 0,H=void 0,R=A.plx.length-1;R>=0;R--){Array.isArray(A.plx[R])||(A.plx[R]=A.plx[R].split(":"),A.plx[R][1]=parseFloat(A.plx[R][1]),A.plx[R][2]=parseFloat(A.plx[R][2]),A.plx[R][3]=parseInt(A.plx[R][3]),A.plx[R][4]=parseInt(A.plx[R][4]));var W,Y=(W=A.plx[R])[1],_=W[2],B=W[3],X=W[4],j=l*(_-(Y>=0?Y:0)),D=v(O,B,_,Y,X);if(void 0!==A.currentTime){if(A.videoWidth){H=D.o;X&&(H=-H);var G=H<0?0:H*W[5]/1e3;if(m){A.playbackRate=0;var J=A.play();void 0!==J&&J.then(function(t){return function(){t.currentTime=G,t.pause()}}(A)).catch(function(t){})}else A.currentTime=G}else b=!0,this.mw=!1;break}if("LOTTIE-PLAYER"===A.tagName){if(void 0!==A.seek){var K=D.o/j*W[5]*100;K<0?K=0:K>100&&(K=B?K%100:100),K=parseInt(K)+"%",A.seek(K)}break}G=D.n/j;if("v"==W[0]){var Q=(0==X?-1:1)*(W[5]-1);E=D.o*Q,null==V&&(V=0)}else if("h"==W[0]){if("ll"==W[5])V=-(O.left+O.width);else if("lc"==W[5])V=-(O.left+O.width)*(1-G);else if("lr"==W[5])V=-(O.left+O.width)*(1-G)+(w-O.left)*G;else if("cl"==W[5])V=-(O.left+O.width)*G;else if("cc"==W[5])V=0;else if("cr"==W[5])V=(w-O.left)*G;else if("rl"==W[5])V=-(O.left+O.width)*G+(w-O.left)*(1-G);else if("rc"==W[5])V=(w-O.left)*(1-G);else if("rr"==W[5])V=w-O.left;else{Q=W[5];V=D.o*Q}null==E&&(E=0)}else"s"==W[0]?(q=1-G+G*W[5])<0&&(q=0):"r"==W[0]?(C=G*W[5],N=W[6]+" "+W[7]):"b"==W[0]?(S=G*W[5])<0&&(S=0):"o"==W[0]&&((H=1-G+G*W[5]/100)<0?H=0:H>1&&(H=1))}if(void 0===A.currentTime&&"LOTTIE-PLAYER"!==A.tagName){var U=A.nc?void 0:A.parentNode;U&&(U.style.webkitTransform=U.style.MozTransform=U.style.msTransform=U.style.transform="none",A.style.marginLeft=A.style.marginTop=0);var Z="",$="";null!=V&&(Z="translate3d("+V.toFixed(1)+"px,"+E.toFixed(1)+"px,0)",(A.sx<0||A.sy<0)&&($="translate3d("+(V*A.sx).toFixed(1)+"px,"+(E*A.sy).toFixed(1)+"px,0)"));var tt="";if(null!=q&&(tt+="scale("+q.toFixed(3)+","+q.toFixed(3)+")"),null!=C&&(tt.length&&(tt+=" "),tt+="rotate("+C.toFixed(1)+"deg)",A.style.webkitTransformOrigin=A.style.MozTransformOrigin=A.style.msTransformOrigin=A.style.transformOrigin=N),Z.length&&(Z+=" "),Z+=tt,$.length&&($+=" ",$+=tt),Z.length&&(A.style.webkitTransform=A.style.MozTransform=A.style.msTransform=A.style.transform=Z),null!=S&&(A.style.webkitFilter=A.style.mozFilter="blur("+S.toFixed(1)+"px)"),null!=H&&(A.style.opacity=H.toFixed(2),A.style.filter="alpha(opacity="+parseInt(100*H)+")"),U){var et=c(I,0);parseInt(10*parseFloat(A.style.width))!=parseInt(10*et.width)&&(A.style.width=et.width.toFixed(1)+"px"),parseInt(10*parseFloat(A.style.height))!=parseInt(10*et.height)&&(A.style.height=et.height.toFixed(1)+"px");var it,rt=c(A,A.bb);$.length?(A.style.webkitTransform=A.style.MozTransform=A.style.msTransform=A.style.transform=$,it=c(A,A.bb)):it={left:rt.left,top:rt.top,width:rt.width,height:rt.height};var ot=(rt.width-et.width)/2-A.offsl,st=(rt.height-et.height)/2-A.offst;rt.left+=A.offsl,rt.top+=A.offst,it.left+=A.offsl,it.top+=A.offst,rt.width+=A.incw,rt.height+=A.inch,it.width+=A.incw,it.height+=A.inch;var lt=p?1:y,nt=(it.top+a)*lt-a;if(nt+it.height*lt<0||nt>h.innerHeight||it.left+it.width<0||it.left>w){U.style.width=0;continue}var at=it.left+n,ft=at+it.width>w?w-at:it.width,dt=A.sx<0?rt.width-ft:0,ht=(G=it.top+a)+it.height>T?w-G:it.height,pt=A.sy<0?rt.height-ht:0;(A.style.transform||A.style.webkitTransform||A.style.MozTransform||A.style.msTransform)!=tt&&(A.style.webkitTransform=A.style.MozTransform=A.style.msTransform=A.style.transform=tt),"50% 50%"!=(A.style.transformOrigin||A.style.webkitTransformOrigin||A.style.MozTransformOrigin||A.style.msTransformOrigin)&&(A.style.webkitTransformOrigin=A.style.MozTransformOrigin=A.style.msTransformOrigin=A.style.transformOrigin="50% 50%"),ot=(ot+dt).toFixed(1)+"px",A.style.marginLeft!=ot&&(A.style.marginLeft=ot),st=(st+pt).toFixed(1)+"px",A.style.marginTop!=st&&(A.style.marginTop=st),parseInt(10*parseFloat(U.style.width))!=parseInt(10*ft)&&(U.style.width=ft.toFixed(1)+"px"),parseInt(10*parseFloat(U.style.height))!=parseInt(10*rt.height)&&(U.style.height=ht.toFixed(1)+"px"),U.style.webkitTransform=U.style.MozTransform=U.style.msTransform=U.style.transform="translate3d("+(rt.left-et.left-dt).toFixed(1)+"px,"+(rt.top-et.top+pt).toFixed(1)+"px,0)"}A.style.visibility=""}}}}this.mw?(e=r,i=o,f=n,d=a):this.mw=!b&&"0px"!==h.getComputedStyle(document.body).getPropertyValue("min-width"),h.requestAnimationFrame?h.requestAnimationFrame(x):this.mw||setTimeout(x,100)}},w=window;if(w.requestAnimationFrame?w.requestAnimationFrame(x):w.addEventListener?(w.addEventListener("scroll",x),w.addEventListener("resize",x)):(w.onscroll=x,w.onresize=x),init_parallax(),x(),"matchMedia"in window)try{window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",function(t){x()})}catch(t){}}();
+
+</script>
+</body>
+</html>
